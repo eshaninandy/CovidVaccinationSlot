@@ -50,6 +50,4 @@ while i<100:
       #playsound("notification_sound.mp3")
 
     print("\n==================================\n")
-
-    delay = datetime.now()+timedelta(minutes=2)
     i -= 1
