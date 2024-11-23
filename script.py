@@ -13,7 +13,7 @@ today = datetime.today()
 further_days = [today + timedelta(days=i) for i in range(num_days)]
 dates = [i.strftime("%d-%m-%Y") for i in further_days]
 i = 0
-while i<100:
+while i<1000:
     cnt = 0
     for pincode in pincodes:
         for date in dates:
@@ -50,4 +50,4 @@ while i<100:
       #playsound("notification_sound.mp3")
 
     print("\n==================================\n")
-    i -= 1
+    i += 1
